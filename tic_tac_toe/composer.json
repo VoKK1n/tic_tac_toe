@@ -1,0 +1,23 @@
+{
+    "name": "VoKK1n/task02",
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ],
+        "psr-4": {
+            "VoKK1n\\Task02\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/tic-tac-toe.php"
+    ],
+    "authors": [
+        {
+            "name": "VoKK1n"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.20"
+    }
+}
